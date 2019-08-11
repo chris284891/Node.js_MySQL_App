@@ -1,6 +1,6 @@
 var mysql = require("mysql");
 var inquirer = require("inquirer");
-var table = require("cli-table2");
+var Table = require("cli-table2");
 
 var connection = mysql.createConnection({
     host: "localhost",
@@ -13,8 +13,26 @@ var connection = mysql.createConnection({
 connection.connect();
 
 var display = function() {
-    connection.query("Select * FROM Products", function (err, res))
-}
+    connection.query("Select * FROM Products", function (err, res) {
+        if (err) throw err;
+        console.log("------------------------------");
+        console.log("Welcome to the Bamazon");
+        console.log("------------------------------");
+        console.log("------------------------------");
+        console.log("Please Pick Your Product");
+        console.log("------------------------------");
+    });
+    var table = new Table({
+        head: ['Item ID', 'Product Name', 'Department Name', 'Price', 'Stock Quantity'],
+        colWidths: [10, 50, 50, 10, 10]
+    });
+    for (i = 0; i < res.length; i++) {
+        table.push ([res[i].item_id, res[i].product_name, res[i].department_name, res[i].price, res[i].stock_quantity]);
+    }
+    console.log(table.toString());
+    console.log("");
+};
+display();
 // console.log("---------------------")
 // console.log("ID | Products | Price")
 // console.log("---------------------")
@@ -24,17 +42,17 @@ var display = function() {
 //         console.table(res)
 //     })
 //     itemChoice();
-}
-function itemChoice() {
+// }
+var shopping + function {
     inquirer.prompt([{
         name: "answer",
         type: "input",
-        message: "\nWhat item would you like to purchase? Please enter ID number\n",
+        message: "What item would you like to buy? Please enter the corresponding Item ID number",
         filter: Number
     },
     ])
-        .then(function (answers) {
-            var productID = answers;
+        .then(function (answer) {
+            var productID = answer;
             productCheck(productID);
         });
     function productCheck(answers) {
