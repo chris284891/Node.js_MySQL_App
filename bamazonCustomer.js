@@ -10,7 +10,7 @@ var connection = mysql.createConnection({
     database: "bamazon"
 });
 console.log(connection)
-
+// I can't get the database to connect
 connection.connect();
 
 var display = function () {
@@ -57,4 +57,6 @@ var display = function () {
     
     
 // }
+
+// Can't get database with my values to display
 display();
