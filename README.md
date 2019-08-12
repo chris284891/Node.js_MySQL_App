@@ -1,5 +1,5 @@
 # Video(coming soon) and MySQL image(coming soon)
-<img src="Images/MySQL.png"
+<img src="./Images/MySQL.png"
      alt="MySQL Database"
      style="float: left; margin-right: 10px;" />
 
