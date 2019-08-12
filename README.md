@@ -5,7 +5,7 @@
 
 
 # Node.js and MySQL App
-This is my seconde node.js application and first MySQL app.
+This is my second node.js application and first MySQL app.
 
 # Problem
 Make an app kinda like Amazon. User can pick items to purchase. Stock quantity in database must be updated according to what user picks.
