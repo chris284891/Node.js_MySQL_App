@@ -1,5 +1,6 @@
-#Video(coming soon) and MySQL image
-![MySQL Database](C:\Users\chris\Pictures\Screenshots\Screenshot (2).png)
+# Video(coming soon) and MySQL image
+![MySQL Database](C:\Users\chris\Pictures\Screenshots\Screenshot_(2).png)
+
 
 # Node.js and MySQL App
 This is my seconde node.js application and first MySQL app.
