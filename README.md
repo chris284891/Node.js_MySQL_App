@@ -23,7 +23,7 @@ Made a node.js file that is linked to MySQL database that will update accoring t
 Just enter in what product in the table you would like to buy. And the Database will update according to what product you chose.
 
 # Getting Started
-click on green button "Clone or download" and copy link. Run a "git clone {link}" in [Git Bash](https://gitforwindows.org/ "Git bash download page")(PC) or Terminal(Mac).
+Click on green button "Clone or download" and copy link. Run a "git clone {link}" in [Git Bash](https://gitforwindows.org/ "Git bash download page")(PC) or Terminal(Mac).
 
 enter in "cd" space "name of app" and then run the following command:
 
