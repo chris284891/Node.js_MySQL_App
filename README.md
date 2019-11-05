@@ -23,7 +23,23 @@ Made a node.js file that is linked to MySQL database that will update accoring t
 Just enter in what product in the table you would like to buy. And the Database will update according to what product you chose.
 
 # Getting Started
-If you want to edit this code. Just open any of the files and copy-&-paste the code into any coding program of your choice, perform a git clone, or download straight from github.
+click on green button "Clone or download" and copy link. Run a "git clone {link}" in [Git Bash download page](https://gitforwindows.org/ "Git Bash")(PC) or Terminal(Mac).
+
+enter in "cd" space "name of app" and then run the following command:
+
+```
+npm install
+```
+
+This should install node modules within the server and the client folder.
+
+After installations are completed:
+
+```
+node 
+```
+
+Your app should now be running on <http://localhost:3000>.
 
 # Prequisites
 Have node.js installed.
