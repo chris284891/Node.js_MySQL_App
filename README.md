@@ -33,7 +33,7 @@ npm install
 
 This should install all necessary node modules.
 
-After installations are completed:
+After installations are completed run the following command:
 
 ```
 node bamazonCustomer.js
