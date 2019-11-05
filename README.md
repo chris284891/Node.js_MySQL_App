@@ -31,7 +31,7 @@ enter in "cd" space "name of app" and then run the following command:
 npm install
 ```
 
-This should install node modules within the server and the client folder.
+This should install all necessary node modules.
 
 After installations are completed:
 
