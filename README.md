@@ -1,5 +1,5 @@
 # Video(coming soon) and MySQL image(coming soon)
-[screenshot](Images/MySQL.png)
+![screenshot](Images/MySQL.png)
 
 # Node.js and MySQL App
 This is my second node.js application and first MySQL app.
