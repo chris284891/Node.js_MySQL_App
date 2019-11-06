@@ -1,8 +1,5 @@
 # Video(coming soon) and MySQL image(coming soon)
-<img src="./Images/MySQL.png"
-     alt="MySQL Database"
-     style="float: left; margin-right: 10px;" />
-
+[screenshot](Images/MySQL.png)
 
 # Node.js and MySQL App
 This is my second node.js application and first MySQL app.
